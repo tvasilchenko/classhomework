@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@500&display=swap');
+header {
+    margin: 0 auto;
+    width: 62.5%;
+    height: 500px;
+}
+
+.header-wrapper {
+    background-image: url(header.jpg);
+    background-size: 100%;
+}
+
+.menu-main {
+    list-style: none;
+    text-align: center;
+    background: #121921;
+    border: 10px solid #3B424A;
+    border-radius: 10px;
+}
+
+.menu-main a {
+    text-decoration: none;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    letter-spacing: 2px;
+    position: relative;
+    color: aliceblue;
+    font-size: 17px;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: color .2s;
+}
+
+.menu-main a:hover {
+    text-decoration: none;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    letter-spacing: 2px;
+    position: relative;
+    color: rgb(107, 128, 146);
+    font-size: 17px;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: color .2s;
+}
+
+.zag {
+    text-decoration: none;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    letter-spacing: 2px;
+    position: relative;
+    color: aliceblue;
+    font-size: 23px;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: color .2s;
+}
+
+.zag1 {
+    text-decoration: none;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    letter-spacing: 2px;
+    position: relative;
+    color: aliceblue;
+    font-size: 33px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.zag3 {
+    text-decoration: none;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    letter-spacing: 2px;
+    position: relative;
+    color: aliceblue;
+    font-size: 15px;
+    text-align: center;
+}
+
+main {
+    margin: 0 auto;
+    width: 62.5%;
+    height: 520px;
+}
+
+.main-wrapper {
+    background-image: url(bg01.png);
+}
+
+img {
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+.maintxt {
+    text-decoration: none;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    letter-spacing: 2px;
+    position: relative;
+    color: rgb(88, 85, 85);
+    font-size: 15px;
+    text-align: center;
+}
+
+footer {
+    margin: 0 auto;
+    width: 62.5%;
+    height: 200px;
+}
+
+.footer-wrapper {
+    background-image: url(bg02.png);
+}
+
+.coopiright {
+    text-decoration: none;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    letter-spacing: 2px;
+    position: relative;
+    color: rgb(88, 85, 85);
+    font-size: 15px;
+    text-align: center;
+}
